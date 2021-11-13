@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html >
+  <head>
+  <title>HTML Assessment</title>
+  </head>
+  <body>
+  <section id="text">
+    <h2> TEXT </h2>
+    <p><strong>Lorem</strong>
+      ipsum dolor sit amet, consectetur adipiscing elit.Sed <br>
+      blandit, eros sit amet euismod tincidunt, nisl leo vestibulum dui, sed<br>
+      tincidunt lacus ligula eu sapien. Proin at diam tincidunt, tincidunt<br>
+      ex at, venenatis nisl.
+    </p>
+    <blockquote >
+      <em>
+        <p><strong>Integer</strong>
+          auctor est ac fringilla euismod. Donec laoreet<br>
+          urna vel diam blandit venenatis. Nam fermentum turpis a<br>
+          mauris condimentum, vitae faucibus leo commodo.
+        </p>
+        </em>
+    </blockquote>
+    <p><strong>Vestibulum</strong>
+      elit nisi, posuere ut hendrerit a, molestie eu leo. Donec<br>
+      sit amet ullamcorper turpis. Mauris eu tellus blandit turpis<br>
+      fermentum dapibus eget sed ex. Vivamus auctor in velit ac suscipit.<br>
+      In hac habitasse platea dictumst.
+    </p>
+    </section>
+    <section id="table">
+  <h2>TABLE</h2>
+  <table>
+    <thead>
+      <th colspan="6">Scores by quarter</th>
+      <tr>
+        <strong>
+        <th scope="col" colspan="1" rowspan="3">Team Name</th>
+        <th scope="col"colspan="2">First Half</th>
+        <th scope="col"colspan="2">Second Half</th>
+        </strong>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td><strong>Q1</strong></td>
+        <td><strong>Q2</strong></td>
+        <td><strong>Q3</strong></td>
+        <td><strong>Q4</strong></td>
+        <td><strong>Final</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">Slytherin</td>
+        <td>7</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td colspan="2">Gryffindor</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>7</td>
+        <td>15</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><strong>Total</strong></td>
+        <td><strong>7</strong></td>
+        <td><strong>9</strong></td>
+        <td><strong>3</strong></td>
+        <td><strong>13</strong></td>
+        <td><strong>32</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+  </section>
+  <section id="list">
+    <h2>LIST</h2>
+    <ul>
+      <li><img src="https://www.symbols.com/images/symbol/1/2150_slytherin-house.png"
+        alt="Snake with green background" height="100" width="100"><br>
+        <a href="https://harrypotter.fandom.com/wiki/Slytherin_Quidditch_team" target="_blank">Slytherin</a>
+        <ul>
+          <li>Team Captain: Marcus Flint</li>
+
+            <li>Chasers</li>
+            <ol>
+              <li>Adrian Pucey</li>
+              <li>Graham Montague</li>
+            </ol>
+          </ul>
+      </li>
+    </ul>
+    <ul>
+      <li><img src="https://www.symbols.com/images/symbol/1/2147_gryffindor-house.png"
+         alt="Lion with red background" height="100" width="100"><br>
+        <a href="https://harrypotter.fandom.com/wiki/Gryffindor_Quidditch_team" target="_blank">
+        Gryffindor</a>
+      <ul>
+        <li>Team Captain: Oliver Wood</li>
+          <li>Chasers</li>
+          <ol>
+            <li>Angelina Johnson</li>
+            <li>Alicia Spinnet</li>
+            <li>Katie Bell</li>
+          </ol>
+      </ul></li>
+    </ul>
+
+  </section>
+  <section id="form">
+    <h2>FORM</h2>
+    <form action="index.html" method="post">
+      <label for="First">First:</label>
+      <input type="text" name="First" value="First Name">
+      <label for="Last">Last:</label>
+      <input type="text" name="Last" value="Last Name">
+      <section id="favorite sport">
+        <label for="team">Favorite Sport:</label>
+        <select name="team" id="favorite sports">
+          <option value="Quidditch">Quidditch</option>
+          <option value="Basketball">Basketball</option>
+          <option value="Soccer">Soccer</option>
+          <option value="Baseball">Baseball</option>
+          <option value="Football">Football</option>
+          <option value="Swimming">Swimming</option>
+          <option value="Wrestling">Wrestling</option>
+        </select>
+      </section>
+      <section id="training">
+        <span> I have:
+          <input type="checkbox" name="training" value="Attended">
+          <label for="Attended">Attended</label>
+          <input type="checkbox" name="training" value="Played">
+          <label for="Played">Played</label>
+          <input type="checkbox" name="training" value="Coached">
+          <label for="Coached">Coached</label>
+          <input type="checkbox" name="training" value="Bet on">
+          <label for="Bet on">Bet on</label><br>
+          this sport.</span>
+      </section>
+      <section id="level_pref">
+        <span> For this sport I prefer the:
+          <input type="radio" name="pref" id="amateur" value="amateur">
+          <label for="Amateur">Amateur</label>
+          <input type="radio" name="pref" id="college" value="college">
+          <label for="college">College</label>
+          <input type="radio" name="pref" id="professional"value="professional">
+          <label for="professional">Professional</label>
+          </span>
+      </section>
+      <section class="submission">
+        <input type="submit" value="Submit Query">
+      </section>
+    </form>
+
+  </section>
+
+  </body>
+</html>
